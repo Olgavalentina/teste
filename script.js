@@ -1,6 +1,8 @@
 let maxCliques = 12;
 let maxVitorias = 5;
 
+function iniciarJogo() {
+    let tamMatriz = 9;
 var cliquesRestantes = maxCliques;    
 let vidasRestantes = 7;    
 let vitorias = 0;
@@ -9,8 +11,7 @@ let jogo = document.getElementById('jogo');
 let coracoesContainer = document.getElementById('coracoes');
 let estrelasContainer = document.getElementById('estrela');
 
-function iniciarJogo() {
-    let tamMatriz = 9;
+
 
     let botao = document.getElementById('botao');
     let botoesControle = document.getElementById('botoes-controle');
